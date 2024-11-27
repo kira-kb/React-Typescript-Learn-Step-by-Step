@@ -1,0 +1,33 @@
+1. What is React?
+React is a JavaScript library for building fast, interactive user interfaces. It’s component-based, meaning that the UI is divided into small, reusable pieces of code called components.
+
+Why React?
+Efficient rendering with its virtual DOM.
+Component reusability.
+A large community and ecosystem of libraries.
+2. What is Vite?
+Vite is a build tool that makes the development process fast and efficient. It provides instant hot module replacement (HMR), which speeds up the development process.
+
+3. What is TypeScript?
+TypeScript is a superset of JavaScript that adds static types. It allows us to catch errors earlier in development by defining types for variables and functions.
+
+Setup: Create Your First React Project with Vite and TypeScript
+Install Vite and Create a New Project
+
+Open your terminal and run the following commands:
+
+
+
+npm create vite@latest my-react-app -- --template react-ts
+cd my-react-app
+npm install
+npm run dev
+
+
+React.FC: Stands for "function component" and ensures that your component is typed correctly.
+JSX: The syntax that looks like HTML but is actually JavaScript, used to define the UI in React.
+
+
+React Components: Components are like building blocks of a React application. A component is a JavaScript function or class that optionally accepts inputs (called "props") and returns a React element that describes how a section of the UI should appear.
+
+Vite Advantages: Vite is faster than traditional tools like create-react-app because it builds and serves the project with instant updates.
